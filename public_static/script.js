@@ -18,8 +18,8 @@ $(function () {
     })
 
     rateBtn.click(function () {
-        $.gte('/rate', function (data) {
-            rateDiv.test(JSOn.stringify(data))
+        $.get('/rate', function (data) {
+            rateDiv.text(JSON.stringify(data))
         })
     })
 })
