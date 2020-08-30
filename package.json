@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "mocha",
-    "cover": "nyc --reporter=html --reporter=text mocha"
+    "cover": "nyc --reporter=html --reporter=text --reporter=lcov mocha"
   },
   "author": "",
   "license": "ISC"
